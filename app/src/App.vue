@@ -3,7 +3,7 @@
         <Header></Header>
         <!-- 路由·组件出口 -->
         <router-view></router-view>
-        <Footer></Footer>
+        <Footer v-show="$route.meta.show"></Footer>
     </div>
 </template>
 
@@ -18,4 +18,4 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped></style>
