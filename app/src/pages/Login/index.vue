@@ -161,7 +161,7 @@
                 width: 37px;
                 height: 32px;
                 border: 1px solid #ccc;
-                background: url(~@/assets/icons.png) no-repeat -10px -201px;
+                background: url('~@/assets/icons.png') no-repeat -10px -201px;
                 box-sizing: border-box;
                 border-radius: 2px 0 0 2px;
               }

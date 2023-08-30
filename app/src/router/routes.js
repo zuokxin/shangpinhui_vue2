@@ -1,6 +1,6 @@
 // 引入相应的路由组件
 import home from '@/pages/home';
-import Search from '@/pages/Search';
+import Search from '@/pages/search';
 import Login from '@/pages/login';
 import Register from '@/pages/register';
 import Detail from '@/pages/detail';
@@ -127,35 +127,35 @@ export default [
             },
             {
                 path: 'model',
-                component: () => import('@/pages/Communication/ModelTest/ModelTest'),
+                component: () => import('@/pages/communication/ModelTest/ModelTest'),
                 meta: {
                     show: false,
                 },
             },
             {
                 path: 'sync',
-                component: () => import('@/pages/Communication/SyncTest/SyncTest'),
+                component: () => import('@/pages/communication/SyncTest/SyncTest'),
                 meta: {
                     show: false,
                 },
             },
             {
                 path: 'attrs-listeners',
-                component: () => import('@/pages/Communication/AttrsListenersTest/AttrsListenersTest'),
+                component: () => import('@/pages/communication/AttrsListenersTest/AttrsListenersTest'),
                 meta: {
                     show: false,
                 },
             },
             {
                 path: 'children-parent',
-                component: () => import('@/pages/Communication/ChildrenParentTest/ChildrenParentTest'),
+                component: () => import('@/pages/communication/ChildrenParentTest/ChildrenParentTest'),
                 meta: {
                     show: false,
                 },
             },
             {
                 path: 'scope-slot',
-                component: () => import('@/pages/Communication/ScopeSlotTest/ScopeSlotTest'),
+                component: () => import('@/pages/communication/ScopeSlotTest/ScopeSlotTest'),
                 meta: {
                     show: false,
                 },

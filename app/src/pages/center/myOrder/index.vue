@@ -1,10 +1,10 @@
 <template>
-  <div>hintBbutton</div>
+  <div>myorder</div>
 </template>
 
 <script>
 export default {
-  name:'HintButton'
+
 }
 </script>
 
